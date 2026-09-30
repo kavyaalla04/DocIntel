@@ -1,0 +1,89 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Frontend dependencies and generated output
+node_modules/
+.vite/
+.next/
+coverage/
+*.tgz
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploaded documents, generated audio, and local databases
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large GovReport evaluation dataset shards (download separately; exceed GitHub's 100 MB limit)
+app/data/*.parquet
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+tmp/
+temp/
+.cache/
+
+# Test and coverage artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+.project
+.pydevproject
+.settings/
+
+# Local Docker overrides
+docker-compose.override.yml
